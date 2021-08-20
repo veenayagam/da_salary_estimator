@@ -48,15 +48,9 @@ After the data has been scrapped, I need to clean it up before using in the mode
 ## Exploratory Data Analysis
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
-<<<<<<< HEAD
 ![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/130232033-0a0d2975-73b4-4d5f-8aff-03b843a8bde0.PNG "Job numbers vs Location")
 ![job_numbers_vs_job_title](https://user-images.githubusercontent.com/72549846/130231975-cad78558-a547-453e-a6df-00476610a840.PNG "Job numbers vs Job title")
 ![correlation](https://user-images.githubusercontent.com/72549846/130231915-da92536c-b6f2-4e53-b892-8eb0a17a4acf.PNG "Correlations")
-=======
-![location_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130230454-08618f32-5a8c-4393-9356-9b3f2120556e.PNG "Job numbers by Location")
-![job_position_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130230170-490f6f45-e1ef-4668-8923-f5121c74e0bd.PNG "Job Position by Location")
-![correlation](https://user-images.githubusercontent.com/72549846/130230626-9bfb8846-32f1-44fa-937b-539702cdbb6e.PNG "Correlations")
->>>>>>> 0db85dfab822416d61774cbba08563143293e919
 
 ## Model Building 
 Transformed categorical variables into dummy variables. Then I split the data into train and tests sets with test size of 20% and 80% for train set respectively.  
