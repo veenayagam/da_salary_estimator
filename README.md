@@ -48,12 +48,11 @@ After the data has been scrapped, I need to clean it up before using in the mode
 ## Exploratory Data Analysis
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
-![alt text](![location_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130227600-bd5490e4-bf93-4043-bb49-e0843529e642.PNG "Job numbers by Location")
-![alt text](![job_position_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130227785-d7ac153f-f021-4125-832a-9abe1f0e5d10.PNG "Job Position by Location")
-![alt text](![correlation](https://user-images.githubusercontent.com/72549846/130228157-d0638eb3-e499-4179-a5aa-c44646592d9c.PNG "Correlations")
+![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/130232033-0a0d2975-73b4-4d5f-8aff-03b843a8bde0.PNG "Job numbers vs Location")
+![job_numbers_vs_job_title](https://user-images.githubusercontent.com/72549846/130231975-cad78558-a547-453e-a6df-00476610a840.PNG "Job numbers vs Job title")
+![correlation](https://user-images.githubusercontent.com/72549846/130231915-da92536c-b6f2-4e53-b892-8eb0a17a4acf.PNG "Correlations")
 
 ## Model Building 
-
 Transformed categorical variables into dummy variables. Then I split the data into train and tests sets with test size of 20% and 80% for train set respectively.  
 
 I implement three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
@@ -71,6 +70,3 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**GridSearchCV(Random Forest)**: Negative MAE = -2.12
 ## Productionization 
 For this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
-
-
-
