@@ -48,7 +48,7 @@ After the data has been scrapped, I need to clean it up before using in the mode
 ## Exploratory Data Analysis
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
-![alt text](![location_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130227600-bd5490e4-bf93-4043-bb49-e0843529e642.PNG "Job numbers by Location")
+![job_position_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130230170-490f6f45-e1ef-4668-8923-f5121c74e0bd.PNG)
 ![alt text](![job_position_vs_job_numbers](https://user-images.githubusercontent.com/72549846/130227785-d7ac153f-f021-4125-832a-9abe1f0e5d10.PNG "Job Position by Location")
 ![alt text](![correlation](https://user-images.githubusercontent.com/72549846/130228157-d0638eb3-e499-4179-a5aa-c44646592d9c.PNG "Correlations")
 
