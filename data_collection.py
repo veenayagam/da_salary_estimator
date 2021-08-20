@@ -1,8 +1,10 @@
+'''
+ # @ Author: Veenay
+ # @ Create Time: 2021-08-20 11:29:22
+ # @ Modified by: Veenay
+ # @ Modified time: 2021-08-20 15:59:27
+ '''
 # -*- coding: utf-8 -*-
-'''
-Created Date: Saturday August 14th 2021
-Author: <<Veenay>>
-'''
 
 import glassdoor_scraper as gs 
 import pandas as pd 
