@@ -1,6 +1,6 @@
-# Data Science Data Analyst Salary Estimator
+# Data Analyst Salary Estimator
 # Project Overview 
-* Created a tool that estimates data science salaries (MAE) to help data analysts negotiate their income when they get a job.
+* Created a tool that estimates data analyst salaries (MAE) to help data analysts negotiate their income when they get a job.
 * Scraped over 500 job descriptions from glassdoor Malaysia using python and selenium
 * Engineered features from the text job description to get insight of companies put on power bi, tableau, python, sql,excel and machine_learning. 
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
