@@ -47,7 +47,7 @@ After the data has been scrapped, I need to clean it up before using in the mode
 
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
-![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/130232033-0a0d2975-73b4-4d5f-8aff-03b843a8bde0.PNG "Job numbers vs Location")
+![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/136418043-b822e544-048b-4917-8dc9-f3fcd041420c.png "Job numbers vs Location")
 ![job_numbers_vs_job_title](https://user-images.githubusercontent.com/72549846/130231975-cad78558-a547-453e-a6df-00476610a840.PNG "Job numbers vs Job title")
 ![correlation](https://user-images.githubusercontent.com/72549846/130231915-da92536c-b6f2-4e53-b892-8eb0a17a4acf.PNG "Correlations")
 
