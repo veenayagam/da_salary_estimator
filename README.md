@@ -45,6 +45,7 @@ After the data has been scrapped, I need to clean it up before using in the mode
 *	Create column for simplified job title
 *	Create column for job description length 
 
+## Exploratory Data Analysis
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
 ![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/136418043-b822e544-048b-4917-8dc9-f3fcd041420c.png "Job numbers vs Location")
