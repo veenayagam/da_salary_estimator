@@ -62,11 +62,11 @@ I tried three different models:
 *	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 *	**Random Forest Regressor** – Again with the sparsity associated with the data, I thought that this would be a good fit. 
 
-## Model performance
+## Model Performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
 *	**Linear Regression** : Negative MAE = -5.15
 *	**Lasso Regression**: Negative MAE = -12.68 and -4.88(after tuned)
 *	**Random Forest**: Negative MAE = -2.52
 *	**GridSearchCV(Random Forest)**: Negative MAE = -2.12
-## Productionization 
+## Model Deployment
 For this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
