@@ -50,7 +50,7 @@ I looked in the distributions of the data and categorical variables using pivot 
 
 ![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/136419596-c3158210-54bd-43f8-8ce7-748d133f0070.png "Job numbers vs Location")
 ![job_numbers_vs_job_title](https://user-images.githubusercontent.com/72549846/136419615-1b4d31ed-ff56-4077-a3fd-ace6ee310e4e.png "Job numbers vs Job title")
-![correlation](https://user-images.githubusercontent.com/72549846/130231915-da92536c-b6f2-4e53-b892-8eb0a17a4acf.PNG "Correlations")
+![correlation](https://user-images.githubusercontent.com/72549846/136420212-35b219cc-cb2f-46f2-acc8-424ff1890c2d.png "Correlations")
 
 ## Model Building 
 Transformed categorical variables into dummy variables. Then I split the data into train and tests sets with test size of 20% and 80% for train set respectively.  
