@@ -27,7 +27,7 @@ In the project, web scraper github repo (above github link) was used to scrape 5
 *	Company Founded Date
 *	Job description
 
-## Data Cleaning
+## Exploratory Data Analysis
 After the data has been scrapped, I need to clean it up before using in the models. I cleaned and changed variables as follows:
 
 *	Parsing salary data
@@ -45,7 +45,6 @@ After the data has been scrapped, I need to clean it up before using in the mode
 *	Create column for simplified job title
 *	Create column for job description length 
 
-## Exploratory Data Analysis
 I looked in the distributions of the data and categorical variables using pivot tables and other visualization. Below are a few pictures:
 
 ![job_numbers_vs_location](https://user-images.githubusercontent.com/72549846/130232033-0a0d2975-73b4-4d5f-8aff-03b843a8bde0.PNG "Job numbers vs Location")
