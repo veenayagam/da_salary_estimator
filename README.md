@@ -27,7 +27,7 @@ In the project, web scraper github repo (above github link) was used to scrape 5
 *	Company Founded Date
 *	Job description
 
-## Exploratory Data Analysis
+## Feature Engineering
 After the data has been scrapped, I need to clean it up before using in the models. I cleaned and changed variables as follows:
 
 *	Parsing salary data
